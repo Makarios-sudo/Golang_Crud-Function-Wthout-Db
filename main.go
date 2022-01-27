@@ -117,6 +117,6 @@ func main() {
 	router.HandleFunc("/cars/{id}", DeleteCarEndPoint).Methods("DELETE") // routing the delete car endpoint with a method post
 
 	fmt.Println("Server running at Port 9090")
-	log.Fatal(http.ListenAndServe(":9090", router)) // setting the server port to 12345,
+	log.Fatal(http.ListenAndServe(":9090", router)) // setting the server port to 9090,
 
 }
